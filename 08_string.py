@@ -1,0 +1,7 @@
+# split(), len(), lower(), upper(), strip()
+text = input('Write something: ')
+print(text.split())
+print(text.lower())
+print(text.upper())
+print(f'{text}, The length: {len(text)}')
+print(f'stripped: {text.strip()}')
